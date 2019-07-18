@@ -1,0 +1,5 @@
+### Company Safety Policy
+
+The personal safety and health of employees, contractors, subcontractors, partners and suppliers of **U-Target Energy Ltd.** is of primary importance, and the company is committed to it. Safety is a condition of employment with our company, and will not be sacrifieced for the sake of expediency. To the greatest degree possible, managment will provide all mechanical and physical facilityes required to ensure personal safety and health on our jobsites, in keeping with the highest industry standards.
+
+We will maintain a Health and Safety Program conforming to the best practices of organizations of this type. To be successful, such a program must start with proper attitudes toward injury and illness prevention on part of both management and employee. but also betwen each employee and his or her co-works. All employees are responsible for ensuring the safety program is maintained and continues to develop. Only through such a cooperative effort can a safety program for all employees be established and preserved in their best interests.
