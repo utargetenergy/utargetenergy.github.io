@@ -1,0 +1,74 @@
+<!doctype html> <html> <head> <meta charset="utf-8"> <title></title> <!--    <base href="localhost:9000/" />    --> <meta name="description" content=""> <meta name="viewport" content="width=device-width"> <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"> <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script> <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script> <!-- Place favicon.ico and apple-touch-icon.png in the root directory --> <link rel="stylesheet" href="styles/vendor.b951e9cf.css"> <link rel="stylesheet" href="styles/main.53f7fea9.css"> <style>.about {
+  background-image: url("./images/maple.69055bde.png") ; /* fixed center / cover; */
+  background-color: #cccccc; /* Used if the image is unavailable */
+  height: 150px; /* You must set a specified height */
+    padding: 1em;
+    color:#0f2c52
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+/*  background-size: cover; */
+  opacity: 0.85; 
+}
+.carousel{
+    background: #0f2c52;
+}
+.carousel-item{
+    text-align: center;
+    height:32rem;
+}
+.carousel-caption {
+  bottom: 8rem;
+/*  background-color: #7cf; */
+  z-index: 10;
+}
+
+
+
+
+.jumbotron {
+  background: url("./images/bg.6127680d.jpg") no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: 10% 0%;
+  padding: 200px 0 280px 0;
+  position: relative;
+}
+.jumbotron:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to left, #322e40, #0c2f52);
+  /*background: linear-gradient(to left, #8b86a3, #322e40); */
+  opacity: 0.85; 
+}
+.jumbotron .block {
+  color: #E3E3E4;
+}
+.jumbotron .block h1 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+  font-size: 45px;
+  line-height: 60px;
+  letter-spacing: 10px;
+  padding-bottom: 45px;
+}
+.jumbotron .block p {
+  font-size: 23px;
+  line-height: 40px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  letter-spacing: 3px;
+}</style> </head> <body ng-app="helloApp"> <!--[if lte IE 8]>
+      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]--> <!-- Add your site or application content here --> <div class="container-fluid"> <nav class="navbar navbar-expand-md navbar-light navbar-custom"> <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerUTE" aria-controls="navbarTogglerUTE" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button> <div class="collapse navbar-collapse" id="navbarTogglerUTE"> <ul class="navbar-nav mr-auto mt-2 mt-lg-0"> <li class="nav-item active"> <a class="nav-link" ng-href="main">Home<span class="sr-only">(current)</span></a> </li> <li class="nav-item"> <a class="nav-link" href="products">Products</a> </li> <li class="nav-item"> <a class="nav-link" ng-href="hse">HSE</a> </li> <li class="nav-item"> <a class="nav-link" href="services">Services</a> </li> <li class="nav-item"> <a class="nav-link" href="contact">Contact</a> </li> </ul> <div class="mx-auto"> <a href="#" class="navbar-brand"> <img src="./images/ulogo80.86b25ccc.png" width="40" height="40" alt="" style="background-color:#f8f9fa;border-style:none"> <svg xmlns="http://www.w3.org/2000/svg" width="320" height="60"> <text x="5" y="40" font-weight="bold" style="fill:#0f2c52; color:#0f2c52">U-Target Energy LTD</text> </svg> </a> </div> <form class="form-inline my-2 my-lg-0"> <input class="form-control mr-sm-2" type="search" placeholder="Search"> <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button> </form> </div> </nav> </div> <div class="header" ng-controller="MainCtrl as main"> Choose: <a href="Book/Moby">Moby</a> | <a href="Book/Gatsby">Gatsby</a> | <a href="Book/Scarlet">Scarlet Letter</a><br> <a href="hse">HSE</a><br> <a href="products">Products</a><br> <div> <div ng-view=""></div> </div> <div ng-controller="MainCtrl as main"> <pre>$location.path() = {{main.$location.path()}}</pre> <pre>$route.current.templateUrl = {{main.$route.current.templateUrl}}</pre> <pre>$route.current.params = {{main.$route.current.params}}</pre> <pre>$routeParams = {{main.$routeParams}}</pre> </div> <div class="footer"> <div class="container"> <p><span class="glyphicon glyphicon-heart"></span> from the Yeoman team</p> </div> </div> <!-- Google Analytics: change UA-XXXXX-X to be your site's ID --> <script>!function(A,n,g,u,l,a,r){A.GoogleAnalyticsObject=l,A[l]=A[l]||function(){
+       (A[l].q=A[l].q||[]).push(arguments)},A[l].l=+new Date,a=n.createElement(g),
+       r=n.getElementsByTagName(g)[0],a.src=u,r.parentNode.insertBefore(a,r)
+       }(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+       ga('create', 'UA-XXXXX-X');
+       ga('send', 'pageview');</script> <script src="scripts/vendor.8f9f6d6f.js"></script> <script src="scripts/scripts.17c052c2.js"></script> <script type="text/javascript">angular.element(document.getElementsByTagName('head')).append(angular.element('<base href="' + window.location.pathname + '" />'));</script> </div></body> </html>
