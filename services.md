@@ -10,6 +10,11 @@
 
 - Application of HT, HP, High RPM and oil based mud in Weiyuan 
 
+M. Depth | TVD | Mud Type | Density
+---------| ----| -------- | -------
+(m)      | (m) |           |  (sg)
+4638-4971 | 3740 | oil based | 2.27
+
 ![Image](http://utargetenergy.github.io/images/nearbit-mwd.JPG)
 
 Very accurate Near bit Inc and gamma measurements. It matches very well with the MWD survey results behind.  
