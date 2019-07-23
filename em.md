@@ -6,10 +6,10 @@
 
 Parameter | &Oslash;6.5&quot;
 ----------------------------- | ----------------
-Encoding Methods | BPSK and QPSK
-Transmitting Rate | Up to 12 Bit/S
-Signal Waveform | Sine Wave
-Transmitting Power  | Adaptive Adjustment Based on formation Resistivity
+Telemetry: Encoding Methods | BPSK and QPSK
+Telemetry: Transmitting Rate | Up to 12 Bit/S
+Telemetry: Signal Waveform | Sine Wave
+Telemetry: Transmitting Power  | Adaptive Adjustment Based on formation Resistivity
 Formation Resistivity Range | 0.1-2000 Ohm.m
 Max. Operating Temperature | 175&deg;C
 Min. Environment Temperature | MINUS 40&deg;C
