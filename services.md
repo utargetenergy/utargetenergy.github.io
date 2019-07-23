@@ -10,7 +10,7 @@
 
 - Application of HT, HP, High RPM and oil based mud in Weiyuan 
 
-![Image](http://utargetenergy.github.io/images/nearbit-mwd.jpg)
+![Image](http://utargetenergy.github.io/images/nearbit-mwd.JPG)
 
 Very accurate Near bit Inc and gamma measurements. It matches very well with the MWD survey results behind.  Red: near bit Inc. Blue: MWD Inc. 
 
