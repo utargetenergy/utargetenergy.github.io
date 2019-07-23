@@ -9,7 +9,7 @@
 
 ## U-Pulser
 
-Parameter         | 6.5&quot;      
+Parameter         | &Oslash;6.5&quot;      
 ----------------  |----------   
 Landing Sub ID    | 3.25&quot;         
 Landing Sub OD    | 6.5&quot;          
