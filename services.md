@@ -12,5 +12,7 @@
 
 ![Image](http://utargetenergy.github.io/images/nearbit-mwd.JPG)
 
-Very accurate Near bit Inc and gamma measurements. It matches very well with the MWD survey results behind.  Red: near bit Inc. Blue: MWD Inc. 
+Very accurate Near bit Inc and gamma measurements. It matches very well with the MWD survey results behind.  
+- Red: Near Bit Inc. 
+- Blue: MWD Inc. 
 
