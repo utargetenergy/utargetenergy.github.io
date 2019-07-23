@@ -2,7 +2,9 @@
   - QPSK encoding, transmitting Rate up to 12bps
   - EM downlink, a real two way communication 
 
-## U-EM\n\nParameter | &Oslash;6.5&quot;
+## U-EM
+
+Parameter | &Oslash;6.5&quot;
 ----------------------------- | ----------------
 Max. Operating Temperature | 175°C
 Min. Environment Temperature | MINUS 40°C
