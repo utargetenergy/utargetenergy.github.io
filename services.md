@@ -5,4 +5,12 @@
 - Formation - Focused gamma, near bit Inc and focused gamma
 - Engineering parameters - anual pressure, bore pressure, axia and lateral vibration, stick/slip and RPM
 
-![Image](http://utargetenergy.github.io/images/rig.png)
+
+# Case History of Near Bit Technology
+
+- Application of HT, HP, High RPM and oil based mud in Weiyuan 
+
+![Image](http://utargetenergy.github.io/images/nearbit-mwd.jpg)
+
+Very accurate Near bit Inc and gamma measurements. It matches very well with the MWD survey results behind.  Red: near bit Inc. Blue: MWD Inc. 
+
