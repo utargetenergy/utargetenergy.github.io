@@ -6,8 +6,13 @@
 
 Parameter | &Oslash;6.5&quot;
 ----------------------------- | ----------------
-Max. Operating Temperature | 175°C
-Min. Environment Temperature | MINUS 40°C
+Encoding Methods | BPSK and QPSK
+Transmitting Rate | Up to 12 Bit/S
+Signal Waveform | Sine Wave
+Transmitting Power  | Adaptive Adjustment Based on formation Resistivity
+Formation Resistivity Range | 0.1-2000 Ohm.m
+Max. Operating Temperature | 175&deg;C
+Min. Environment Temperature | MINUS 40&deg;C
 Max. Operating Pressure | 20,000psi
 Rotation | Up to 210RPM
 Vibration |30g, 30-500Hz
@@ -16,7 +21,7 @@ Max. Axial Load |1,000,000 lbs
 Max. LCM Content |No Limits
 Max. Sand Content  |2%
 Max. Flow Rate |535GPM
-Max. Dogleg Severity |11°/30m for Slick Collar or 16-17°/30m for Flex Collar
+Max. Dogleg Severity |11&deg;/30m for Slick Collar or 16-17&deg/30m for Flex Collar
 Length of Transmittor Probe |75.50&quot;
 Length of Battery Probe |79.13&quot;
 Length of Directional Unit + Gamma Sensor Probe |71.64&quot;
