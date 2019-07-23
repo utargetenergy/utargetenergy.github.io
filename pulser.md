@@ -9,7 +9,7 @@
 
 ## U-Pulser
 
-Parameter         | 6.5\"      
+Parameter         | 6.5&quot;      
 ----------------  |----------   
 Landing Sub ID    | 3.25         
 Landing Sub OD    | l.5          
@@ -27,7 +27,7 @@ Max. Dogleg Severity | 7-9°/30m for Slick Collar; 16-17°/30m for Flex Collar\n
 Length of Battery Probe |79.13\"
 Length of Directional Sensor + Gamma Sensor Probe | 71.64\"
 Length of Bullnose | 6.80\"
-Landing Sub Overall Length | 36\"
+Landing Sub Overall Length | 36"
 Landing Sub Re-Cut Length | 3\"
 Max. & Min. Tool Length |  Min. 229.81\" Max. 308.94
 Max. Tool Weight | 235 lbs
