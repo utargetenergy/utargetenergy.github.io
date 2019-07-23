@@ -17,7 +17,10 @@ M. Depth | TVD | Mud Type | Density | volumn|Max Circ Temp|Max Circ. Pressure|Bi
 
 ![Image](http://utargetenergy.github.io/images/nearbit-mwd.JPG)
 
-Very accurate Near bit Inc and gamma measurements. It matches very well with the MWD survey results behind.  
+Very accurate Near bit Inc measurements. It matches very well with the MWD survey results behind.  
 - Red: Near Bit Inc. 
 - Blue: MWD Inc. 
 
+![Image](http://utargetenergy.github.io/images/nearbit-mwd-gamma.JPG)
+
+Very accurate Near bit gamma measurements.
