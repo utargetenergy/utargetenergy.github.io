@@ -1,4 +1,4 @@
-<!doctype html> <html> <head> <meta charset="utf-8"> <title></title> <!--    <base href="localhost:9000/" />    --> <meta name="description" content=""> <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no"> <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"> <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script> <!-- Place favicon.ico and apple-touch-icon.png in the root directory --> <link rel="stylesheet" href="styles/vendor.b951e9cf.css"> <link rel="stylesheet" href="styles/main.a8ac07bd.css"> <style>body {
+<!doctype html> <html ng-app="helloApp"> <head> <meta charset="utf-8"> <meta name="description" content=""> <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no"> <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"> <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script> <!-- Place favicon.ico and apple-touch-icon.png in the root directory --> <link rel="stylesheet" href="styles/vendor.b951e9cf.css"> <link rel="stylesheet" href="styles/main.a8ac07bd.css"> <style>body {
   min-height: 75rem;
   padding-top: 4.5rem;
 }
@@ -116,52 +116,15 @@ svg {
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
   letter-spacing: 3px;
-}</style> </head> <body> <div ng-app="helloApp"> <!--[if lte IE 8]>
+}</style> <div ng-controller="MainCtrl as main"> <title>{{main.page.title()}}</title> </div> </head> <body> <!--[if lte IE 8]>
       <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]--> <!-- Add your site or application content here --> <div class="container-fluid" ng-controller="MainCtrl as main"> <nav class="navbar navbar-expand-md navbar-light fixed-top bg-light"> <!-- Brand and toggle get grouped for better mobile display --> <a class="navbar-brand" href="/"> <img src="https://utargetenergy.github.io/images/ulogo80.png" width="40" height="40" alt="Home - M�os de Amar"> <!--  <svg xmlns="http://www.w3.org/2000/svg" width="220" height="60">
                  <text x="5" y="40" font-weight="bold" style="fill:#0f2c52; color:#0f2c52">U-Target Energy LTD</text>
              </svg>
-             --> </a> <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-controls="bs-example-navbar-collapse-1" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button> <!-- Collect the nav links, forms, and other content for toggling --> <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1"> <ul class="nav navbar-nav navbar-right"> <li class="nav-item" ng-class="{ active: isActive('/')}"> <a class="nav-link" ng-href="main">Home<span class="sr-only">(current)</span></a> </li> <li class="nav-item" ng-class="{ active: isActive('/products')}"> <a class="nav-link" href="products">Products</a> </li> <li class="nav-item" ng-class="{ active: isActive('/hse')}"> <a class="nav-link" ng-href="hse">HSE</a> </li> <li class="nav-item" ng-class="{ active: isActive('/services')}"> <a class="nav-link" href="services">Services</a> </li> <li class="nav-item" ng-class="{ active: isActive('/contact')}"> <a class="nav-link" href="contact">Contact</a> </li> </ul> </div><!-- /.navbar-collapse --> </nav> <!--
-    <nav class="navbar navbar-expand-md  navbar-light fixed-top bg-light"> 
-        <a href="#" class="navbar-brand">
-             <img src="https://utargetenergy.github.io/images/ulogo80.png" width="40" height="40" alt="" style="background-color:#f8f9fa;border-style:none;"></img>
-
-        </a>
-
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerUTE" aria-controls="navbarTogglerUTE" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-
-          <div class="collapse navbar-collapse" id="navbarTogglerUTE">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item"  ng-class="{ active: isActive('/')}">
-                    <a class="nav-link" ng-href="main">Home<span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item" ng-class="{ active: isActive('/products')}">
-                    <a class="nav-link" href="products">Products</a>
-                </li>         
-                <li class="nav-item" ng-class="{ active: isActive('/hse')}">
-                    <a class="nav-link" ng-href="hse">HSE</a>
-                </li>         
-                <li class="nav-item" ng-class="{ active: isActive('/services')}">
-                    <a class="nav-link" href="services">Services</a>
-                </li>
-                 <li class="nav-item" ng-class="{ active: isActive('/contact')}">
-                    <a class="nav-link" href="contact">Contact</a>
-                </li>
-             </ul>
-
-            <form class="form-inline mt-2 mt-md-0">
-               <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
-               <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-            </form> 
-
-          </div>
-    </nav>
---> </div> <div> <div ng-view=""></div> </div> <div class="header" ng-controller="MainCtrl as main"> <div class="footer"> <div class="container diag" ng-controller="MainCtrl as main"> <pre>$location.path() = {{main.$location.path()}}</pre> <pre>$route.current.templateUrl = {{main.$route.current.templateUrl}}</pre> <pre>$route.current.params = {{main.$route.current.params}}</pre> <pre>$routeParams = {{main.$routeParams}}</pre> </div> <div class="container"> <p><span class="glyphicon glyphicon-heart"></span> from the Yeoman team</p> </div> </div> <!-- Google Analytics: change UA-XXXXX-X to be your site's ID --> <script>!function(A,n,g,u,l,a,r){A.GoogleAnalyticsObject=l,A[l]=A[l]||function(){
+             --> </a> <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-controls="bs-example-navbar-collapse-1" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button> <!-- Collect the nav links, forms, and other content for toggling --> <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1"> <ul class="nav navbar-nav navbar-right"> <li class="nav-item" ng-class="{ active: isActive('/')}"> <a class="nav-link" ng-href="main">Home<span class="sr-only">(current)</span></a> </li> <li class="nav-item" ng-class="{ active: isActive('/products')}"> <a class="nav-link" href="products">Products</a> </li> <li class="nav-item" ng-class="{ active: isActive('/hse')}"> <a class="nav-link" ng-href="hse">HSE</a> </li> <li class="nav-item" ng-class="{ active: isActive('/services')}"> <a class="nav-link" href="services">Services</a> </li> <li class="nav-item" ng-class="{ active: isActive('/contact')}"> <a class="nav-link" href="contact">Contact</a> </li> </ul> </div><!-- /.navbar-collapse --> </nav> </div> <div ng-view=""> <div class="header" ng-controller="MainCtrl as main"> <div class="footer"> <div class="container diag" ng-controller="MainCtrl as main"> <pre>$location.path() = {{main.$location.path()}}</pre> <pre>$route.current.templateUrl = {{main.$route.current.templateUrl}}</pre> <pre>$route.current.params = {{main.$route.current.params}}</pre> <pre>$routeParams = {{main.$routeParams}}</pre> </div> <div class="container"> <p><span class="glyphicon glyphicon-heart"></span> from the Yeoman team</p> </div> </div> <!-- Google Analytics: change UA-XXXXX-X to be your site's ID --> <script>!function(A,n,g,u,l,a,r){A.GoogleAnalyticsObject=l,A[l]=A[l]||function(){
        (A[l].q=A[l].q||[]).push(arguments)},A[l].l=+new Date,a=n.createElement(g),
        r=n.getElementsByTagName(g)[0],a.src=u,r.parentNode.insertBefore(a,r)
        }(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
        ga('create', 'UA-XXXXX-X');
-       ga('send', 'pageview');</script> <script src="scripts/vendor.8f9f6d6f.js"></script> <script src="scripts/scripts.37aea3fc.js"></script> <script type="text/javascript">angular.element(document.getElementsByTagName('head')).append(angular.element('<base href="' + window.location.pathname + '" />'));</script> </div> </div></body> </html>
+       ga('send', 'pageview');</script> <script src="scripts/vendor.8f9f6d6f.js"></script> <script src="scripts/scripts.dd41a1ba.js"></script> <script type="text/javascript">angular.element(document.getElementsByTagName('head')).append(angular.element('<base href="' + window.location.pathname + '" />'));</script> </div></body> </html>
