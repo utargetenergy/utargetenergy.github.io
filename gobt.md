@@ -11,11 +11,11 @@ Parameter | Range
 Telemetry |  EM Hop
 Encoded Type | FSK
 **Measurement Specifications** |
-Gamma Sensor Offset (m) | 19" from Downhole Box
-Inclination Sensor Offset(m) | 18" from Downhole Box
-Transmitting Rate | Up to 100 bit/s
-Inc Range and Accuracy | 5-180, ±0.2°
-Gamma Range(API) | 0-600
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Gamma Sensor Offset (m) | 19" from Downhole Box
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Inclination Sensor Offset(m) | 18" from Downhole Box
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Transmitting Rate | Up to 100 bit/s
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Inc Range and Accuracy | 5-180, ±0.2°
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Gamma Range(API) | 0-600
 Lower(GoBit) Sub ID | 1.75"
 Lower(GoBit) Sub OD | 7.000"
 Upper Sub ID | 2.5"
@@ -23,8 +23,8 @@ Upper Sub OD  | 7.000"
 Length of Lower Sub  | 38.2"
 Length of Upper Sub | 44"
 **Operating Limits** |
-Max. Hole Curvature, Rotating | 10
-Max. Hole Curvature, Sliding | 15
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Max. Hole Curvature, Rotating | 10
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Max. Hole Curvature, Sliding | 15
 Max. Axial Load  | 450,000 lb
 Connection Makeup Torque for Lower Sub | 15000 ft lbs
 Connection Makeup Torque for Upper Sub | 25000 ft lbs 
