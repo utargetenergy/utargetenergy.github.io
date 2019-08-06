@@ -11,8 +11,9 @@
 
 Parameter         | &Oslash;6.5&quot;      
 ----------------  |----------   
-Telemtry: Encoding method   | M-ary code or 8PSK
-Telemtry: Max Transmitting Rate | Up to 2 Bits/S
+Telemetry|
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Encoding method   | M-ary code or 8PSK
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Max Transmitting Rate | Up to 2 Bits/S
 Landing Sub ID    | 3.25&quot;         
 Landing Sub OD    | 6.5&quot;          
 Connection Makeup Torque | 27,000 ft lbs
