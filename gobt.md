@@ -6,5 +6,12 @@
 
 ## GOBT Specifications
 
-
+Parameter | Range
+----------------------------- | ----------------
+Telemetry |  EM Hop
+Encoded Type | FSK
+Gamma Sensor Offset (m) | 19" from Downhole Box
+Inclination Sensor Offset(m) | 18" from Downhole Box
+Transmitting Rate |
+Inc Range and Accuracy |
 
