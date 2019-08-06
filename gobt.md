@@ -25,11 +25,11 @@ Length of Upper Sub | 44"
 **Operating Limits** |
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Max. Hole Curvature, Rotating | 10
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Max. Hole Curvature, Sliding | 15
-Max. Axial Load  | 450,000 lb
-Connection Makeup Torque for Lower Sub | 15000 ft lbs
-Connection Makeup Torque for Upper Sub | 25000 ft lbs 
-Max. Operating Temperature | 175°C
-Max. Operating Pressure | 20,000psi
-Max. Flow Rate | 800 GPM for 6.5" 650GPM for 4.75"
-Vibration  | 30g, 30-500Hz 
-Shock | 1000g, half MS, half Sine Shock
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Max. Axial Load  | 450,000 lb
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Connection Makeup Torque for Lower Sub | 15000 ft lbs
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Connection Makeup Torque for Upper Sub | 25000 ft lbs 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Max. Operating Temperature | 175°C
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Max. Operating Pressure | 20,000psi
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Max. Flow Rate | 800 GPM for 6.5" 650GPM for 4.75"
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Vibration  | 30g, 30-500Hz 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Shock | 1000g, half MS, half Sine Shock
