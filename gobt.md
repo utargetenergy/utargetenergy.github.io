@@ -10,6 +10,7 @@ Parameter | Range
 ----------------------------- | ----------------
 Telemetry |  EM Hop
 Encoded Type | FSK
+**Measurement Specifications** |
 Gamma Sensor Offset (m) | 19" from Downhole Box
 Inclination Sensor Offset(m) | 18" from Downhole Box
 Transmitting Rate | Up to 100 bit/s
@@ -21,7 +22,7 @@ Upper Sub ID | 2.5"
 Upper Sub OD  | 7.000"
 Length of Lower Sub  | 38.2"
 Length of Upper Sub | 44"
-Operating Limits |
+**Operating Limits** |
 Max. Hole Curvature, Rotating | 10
 Max. Hole Curvature, Sliding | 15
 Max. Axial Load  | 450,000 lb
