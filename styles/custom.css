@@ -1,0 +1,167 @@
+.myborder {
+  border: 30px solid #f8f9fa;
+  height: 258px;
+  width: 258px;
+}
+
+
+body {
+  min-height: 75rem;
+  padding-top: 4.5rem;
+}
+
+.jumbotron {
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: 10% 0%;
+  padding: 200px 0 280px 0;
+  position: relative;
+}
+.jumbotron:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to left, #322e40, #0c2f52);
+  /*background: linear-gradient(to left, #8b86a3, #322e40); */
+  opacity: 0.85; 
+}
+.jumbotron .block {
+  color: #E3E3E4;
+}
+.jumbotron .block h1 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+  font-size: 45px;
+  line-height: 60px;
+  letter-spacing: 10px;
+  padding-bottom: 45px;
+}
+.jumbotron .block p {
+  font-size: 23px;
+  line-height: 40px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  letter-spacing: 3px;
+}
+/*img {
+ position: absolute;
+  left: 0px;
+  top: 0px;
+   -ms-interpolation-mode: bicubic;
+}
+
+*/
+#some-other-div{
+    width:100px;
+    height:100px;
+    background:yellow;
+}
+body.ie11 #some-other-div{
+    width:100%;
+    height:100%;
+    background:red;
+    
+}
+
+#my-feature {
+  background: url("https://utargetenergy.github.io/images/slider-bg.jpg");
+  background-position: 50% 94px;
+  width: 100%;
+  display: block;
+  position: relative;
+  overflow: visible;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-color: #fff;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  padding: 100px 0;
+}
+#my-feature:before {
+  background: linear-gradient(to left, #777, #022f53);
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  /*background: linear-gradient(to left, #8b86a3, #322e40); */
+  opacity: 0.8; 
+}
+#my-feature h2 {
+  font-size: 28px;
+  font-weight: 600;
+  margin-bottom: 30px;
+  color: #f2f2f2;
+}
+#my-feature ul {
+  margin-bottom: 20px;
+  list-style-type: none;
+  color: #f8f9fa;
+}
+#my-feature li:before {
+    content: "* ";
+ }
+#my-feature p {
+  color: #f2f2f2;
+  margin-bottom: 20px;
+}
+#my-feature .btn-view-works {
+  background: #655E7A;
+  color: #fff;
+  padding: 10px 20px;
+}
+
+#my-call-to-action {
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 70px 0px;
+  position: relative;
+  text-align: center;
+  color: #fff;
+}
+#my-call-to-action:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background: #0f2c52;
+  opacity: 0.8;
+}
+#my-call-to-action h2 {
+  padding-bottom: 20px;
+  line-height: 33px;
+  margin: 0;
+  font-size: 30px;
+}
+#my-call-to-action p {
+  font-size: 14px;
+  line-height: 1.6;
+}
+#my-call-to-action .btn-call-to-action {
+  padding: 15px 35px;
+  border: none;
+  background-color: #fff;
+  font-size: 15px;
+  color: #333333;
+  margin-top: 30px;
+}
