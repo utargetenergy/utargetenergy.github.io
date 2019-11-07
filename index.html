@@ -85,7 +85,6 @@
   width: 100%;
   height: 100%;
   background: linear-gradient(to left, #322e40, #0c2f52);
-  /*background: linear-gradient(to left, #8b86a3, #322e40); */
   opacity: 0.85; 
 }
 .jumbotron .block {
@@ -107,36 +106,7 @@
   letter-spacing: 3px;
 }</style> <div ng-controller="MainCtrl as main"> <title>{{main.page.title()}}</title> </div> </head> <body> <!--[if lte IE 8]>
       <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-    <![endif]--> <!-- Add your site or application content here --> <div class="container-fluid" ng-controller="MainCtrl as main"> <div class="navbar navbar-expand-md navbar-light fixed-top bg-light" role="navigation"> <a class="navbar-brand" href="/">hello</a> <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#js-navbar-collapse" aria-controls="js-navbar-collapse" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button> <div class="collapse navbar-collapse" id="js-navbar-collapse"> <ul class="nav navbar-nav"> <li class="nav-item active"><a class="nav-link" href="main">Home</a></li> <li class="nav-item"><a class="nav-link" ng-href="about">About</a></li> <li class="nav-item"><a class="nav-link" ng-href="todo">Todo</a></li> </ul> </div> </div> <!--  <div class="container-fluid" ng-controller="MainCtrl as main"> --> <!--
-    <nav class="navbar navbar-expand-md  navbar-light fixed-top bg-light">
-        <a class="navbar-brand" href="/">
-            <img src="https://utenergy.ca/images/ulogo80.png" width="40" height="40" alt="Home">
-        </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-controls="bs-example-navbar-collapse-1" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="navbar-nav navbar-right">
-                <li class="nav-item"  ng-class="{ active: isActive('/')}">
-                    <a class="nav-link" ng-href="#!">Home<span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item" ng-class="{ active: isActive('/products')}">
-                    <a class="nav-link" ng-href="#!products">Products</a>
-                </li>         
-                <li class="nav-item" ng-class="{ active: isActive('/hse')}">
-                    <a class="nav-link" ng-href="#!hse">HSE</a>
-                </li>         
-                <li class="nav-item" ng-show="useServices" ng-class="{ active: isActive('/services')}">
-                    <a class="nav-link" ng-href="#!services">Services</a>
-                </li>
-                 <li class="nav-item" ng-show="useContact" ng-class="{ active: isActive('/contact')}">
-                    <a class="nav-link" ng-href="#!contact">Contact</a>
-                </li>
-            </ul>
-        </div>   
-     </nav>
---> </div> <div ng-view=""> <div class="header" ng-controller="MainCtrl as main"> <div class="footer"> <div class="container diag" ng-controller="MainCtrl as main"> <pre>$location.path() = {{main.$location.path()}}</pre> <pre>$route.current.templateUrl = {{main.$route.current.templateUrl}}</pre> <pre>$route.current.params = {{main.$route.current.params}}</pre> <pre>$routeParams = {{main.$routeParams}}</pre> </div> <div class="container"> <p><span class="glyphicon glyphicon-heart"></span> from the Yeoman team</p> </div> </div> <!-- Google Analytics: change UA-XXXXX-X to be your site's ID --> <!--   <script>
+    <![endif]--> <!-- Add your site or application content here --> <div class="container-fluid" ng-controller="MainCtrl as main"> <nav class="navbar navbar-expand-md navbar-light fixed-top bg-light"> <a class="navbar-brand" href="/"> <img src="https://utenergy.ca/images/ulogo80.png" width="40" height="40" alt="Home"> </a> <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-controls="bs-example-navbar-collapse-1" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button> <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1"> <ul class="navbar-nav navbar-right"> <li class="nav-item" ng-class="{ active: isActive('/')}"> <a class="nav-link" ng-href="#!">Home<span class="sr-only">(current)</span></a> </li> <li class="nav-item" ng-class="{ active: isActive('/products')}"> <a class="nav-link" ng-href="#!products">Products</a> </li> <li class="nav-item" ng-class="{ active: isActive('/hse')}"> <a class="nav-link" ng-href="#!hse">HSE</a> </li> <li class="nav-item" ng-show="useServices" ng-class="{ active: isActive('/services')}"> <a class="nav-link" ng-href="#!services">Services</a> </li> <li class="nav-item" ng-show="useContact" ng-class="{ active: isActive('/contact')}"> <a class="nav-link" ng-href="#!contact">Contact</a> </li> </ul> </div> </nav> </div> <div ng-view=""> <div class="header" ng-controller="MainCtrl as main"> <div class="footer"> <div class="container diag" ng-controller="MainCtrl as main"> <pre>$location.path() = {{main.$location.path()}}</pre> <pre>$route.current.templateUrl = {{main.$route.current.templateUrl}}</pre> <pre>$route.current.params = {{main.$route.current.params}}</pre> <pre>$routeParams = {{main.$routeParams}}</pre> </div> <div class="container"> <p><span class="glyphicon glyphicon-heart"></span> from the Yeoman team</p> </div> </div> <!-- Google Analytics: change UA-XXXXX-X to be your site's ID --> <!--   <script>
        !function(A,n,g,u,l,a,r){A.GoogleAnalyticsObject=l,A[l]=A[l]||function(){
        (A[l].q=A[l].q||[]).push(arguments)},A[l].l=+new Date,a=n.createElement(g),
        r=n.getElementsByTagName(g)[0],a.src=u,r.parentNode.insertBefore(a,r)
