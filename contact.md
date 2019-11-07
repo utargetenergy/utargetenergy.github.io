@@ -1,4 +1,4 @@
-## Contact Info 
+## Canada Headquarter 
 
 U-TARGET ENERGY LTD.
 - <i class="fa fa-phone"></i> Office: 403-294 9012
