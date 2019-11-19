@@ -2,7 +2,7 @@
   - QPSK encoding, transmitting Rate up to 12bps
   - EM downlink, a real two way communication 
 
-## U-EM
+## EM-MWD Specifications
 
 Parameter | &Oslash;6.5&quot;
 ----------------------------- | ----------------
