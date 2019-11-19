@@ -7,7 +7,7 @@
 * Special rotor design, very good signal at low pump rate and deep depth
 * Reliable and stable
 
-## U-Pulser Specifications
+## ROT-Pulser Specifications
 
 Parameter         | &Oslash;6.5&quot;      
 ----------------  |----------   
