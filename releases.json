@@ -1,0 +1,71 @@
+{
+  "HT MWD": [
+    {
+      "Software": "Date ",
+      "Firmware": "UMPU"
+    },
+    {
+      "Firmware": "5.0.1.9",
+      "Note": "There are 3 UMPU Hardware version .so there are 3 FW version"
+    },
+    {
+      "Software": "2021.05.17",
+      "Firmware": "5.1.2.9"
+    },
+    {
+      "Firmware": "5.3.2.9"
+    },
+    {
+      "Software": "2021.09.30"
+    }
+  ],
+  "MWD+NBT": [
+    {
+      "Software": "Utility",
+      "MWD": "UPSW",
+      "NBT": "GOTX"
+    },
+    {
+      "Date": "2021.06.30",
+      "Software": "3.3.3.7",
+      "MWD": "3.0.3.4 for BL24/BL28B",
+      "NBT": "5344 for BL24/BL29A",
+      "NOTE": "Voltage Control"
+    },
+    {
+      "Date": "2021.07.14",
+      "Software": "3.3.4.1",
+      "MWD": "3.0.3.4",
+      "NBT": "5.4.0.5 for BL24/BL29A"
+    },
+    {
+      "Date": "2021.07.30",
+      "MWD": "3.0.3.4",
+      "NBT": "5.4.0.7 for BL24/BL29A",
+      "NOTE": "Power and Voltage Control"
+    },
+    {
+      "Date": "2021.08.05",
+      "Software": "3.3.4.3",
+      "NOTE": "Read/Set gamma Unit"
+    },
+    {
+      "Date": "2021.08.26",
+      "Software": "3.3.4.7",
+      "MWD": "3.0.3.4",
+      "NOTE": "UMPU with IOM -35 test version"
+    },
+    {
+      "Date": "2021.08.26",
+      "Software": "3.3.4.7",
+      "MWD": "3.0.3.4",
+      "NOTE": "UMPU with APS test version low angle TF stable--42b00"
+    },
+    {
+      "Date": "2021.10.02",
+      "Software": "3.3.4.7",
+      "MWD": "3.0.3.4",
+      "NOTE": "UMPU with APS test version low angle TF stable--42b10"
+    }
+  ]
+}
