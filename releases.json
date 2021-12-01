@@ -94,21 +94,7 @@
 
    },
 
-    {
-      "Date": "2021.08.05",
-      "TFO": "",
-      "Utility": "3.3.4.3",
-      "Data File": "",
-      "Decoding Software": "",
-      "UPSW": "3.0.3.4(BL24/BL28B)",
-      "UMPU": "3.4.0.7 (BL24/BL29M)",
-      "UDRX": "2.0.2.2",
-      "GOTX": "5.4.0.5 (BL24/BL29A)",
-      "GPSW": "6.0.2.7 (BL21/BL28A)",
-      "GDAI": "5.0.3.2",
-      "Note": "Power and Voltage Control"
-
-   },
+   
    {
       "Date": "2021.08.26",
       "TFO": "",
