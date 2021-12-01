@@ -61,36 +61,36 @@
       "GOTX": "5.4.0.5 (BL24/BL29A)",
       "GPSW": "6.0.2.7 (BL21/BL28A)",
       "GDAI": "5.0.3.2",
-      "Note": "Power and Voltage Control"
+      "Note": ""
 
    }, 
     {
       "Date": "2021.07.30",
       "TFO": "",
-      "Utility": "3.3.3.7",
-      "Data File": "",
-      "Decoding Software": "UPDS8.5.0.2,UMPD2.3.0.7",
-      "UPSW": "3.0.3.4(BL24/BL28B)",
-      "UMPU": "3.4.0.7 (BL24/BL29M)",
-      "UDRX": "2.0.2.2",
-      "GOTX": "5.3.4.4 (BL24/BL29A)",
-      "GPSW": "6.0.2.4 (BL21/BL28A)",
-      "GDAI": "5.0.3.2",
-      "Note": "Voltage Control"
-    },
-    {
-      "Date": "2021.08.05",
-      "TFO": "",
-      "Utility": "3.3.4.1",
+      "Utility": "",
       "Data File": "",
       "Decoding Software": "",
       "UPSW": "3.0.3.4(BL24/BL28B)",
       "UMPU": "3.4.0.7 (BL24/BL29M)",
       "UDRX": "2.0.2.2",
-      "GOTX": "5.4.0.5 (BL24/BL29A)",
+      "GOTX": "5.4.0.7 (BL24/BL29A)",
       "GPSW": "6.0.2.7 (BL21/BL28A)",
       "GDAI": "5.0.3.2",
       "Note": "Power and Voltage Control"
+    },
+    {
+      "Date": "2021.08.05",
+      "TFO": "",
+      "Utility": "3.3.4.3",
+      "Data File": "",
+      "Decoding Software": "",
+      "UPSW": "",
+      "UMPU": "",
+      "UDRX": "",
+      "GOTX": "",
+      "GPSW": "",
+      "GDAI": "",
+      "Note": "Read/Set gamma unit"
 
    },
 
