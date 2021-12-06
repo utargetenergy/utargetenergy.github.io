@@ -3,13 +3,6 @@
   padding-top: 4.5rem;
 }
 
-/*svg {
-    border: 1px solid black; */
-/*    flex-grow: 0;
-    flex-shrink: 1;
-    flex-basis: 50%;
-}
-*/
 @keyframes openYourHeart {from {r: 0} to {r: 60px}}
 
 #myClip circle {
@@ -105,17 +98,9 @@
   font-weight: 300;
   letter-spacing: 3px;
 } </style> <div ng-controller="MainCtrl as main"> <title>{{main.page.title()}}</title> </div> </head> <body> <!--[if lte IE 8]>
-      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-    <![endif]--> <!-- Add your site or application content here --> <div class="container-fluid" ng-controller="MainCtrl as main"> <nav class="navbar navbar-expand-md navbar-light fixed-top bg-light"> <a class="navbar-brand" href="/"> <img src="https://www.uts-canada.com/images/ulogo80.png" width="40" height="40" alt="Home"> </a> <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-controls="bs-example-navbar-collapse-1" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button> <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1"> <ul class="navbar-nav navbar-right"> <li class="nav-item" ng-class="{ active: isActive('/')}"> <a class="nav-link" ng-href="#!">Home<span class="sr-only">(current)</span></a> </li> <li class="nav-item" ng-class="{ active: isActive('/products')}"> <a class="nav-link" ng-href="#!products">Products</a> </li> <li class="nav-item" ng-class="{ active: isActive('/hse')}"> <a class="nav-link" ng-href="#!hse">HSE</a> </li> <li class="nav-item" ng-show="useServices" ng-class="{ active: isActive('/services')}"> <a class="nav-link" ng-href="#!services">Services</a> </li> <li class="nav-item" ng-show="useContact" ng-class="{ active: isActive('/contact')}"> <a class="nav-link" ng-href="#!contact">Contact</a> </li> <li class="nav-item" ng-show="useSupport" ng-class="{ active: isActive('/support')}"> <a class="nav-link" ng-href="#!support">Support</a> </li> </ul> </div> </nav> </div> <div ng-view=""> <div class="header" ng-controller="MainCtrl as main"> <div class="footer"> <div class="container diag" ng-controller="MainCtrl as main"> <pre>$location.path() = {{main.$location.path()}}</pre> <pre>$route.current.templateUrl = {{main.$route.current.templateUrl}}</pre> <pre>$route.current.params = {{main.$route.current.params}}</pre> <pre>$routeParams = {{main.$routeParams}}</pre> </div> <div class="container"> <p><span class="glyphicon glyphicon-heart"></span> from the Yeoman team</p> </div> </div> <!-- Google Analytics: change UA-XXXXX-X to be your site's ID --> <!--   <script>
-       !function(A,n,g,u,l,a,r){A.GoogleAnalyticsObject=l,A[l]=A[l]||function(){
-       (A[l].q=A[l].q||[]).push(arguments)},A[l].l=+new Date,a=n.createElement(g),
-       r=n.getElementsByTagName(g)[0],a.src=u,r.parentNode.insertBefore(a,r)
-       }(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-       ga('create', 'UA-XXXXX-X');
-       ga('send', 'pageview');
-    </script> --> <script src="scripts/vendor.b84f66f8.js"></script> <!--
-    <script type="text/javascript">
-        angular.element(document.getElementsByTagName('head')).append(angular.element('<base href="' + window.location.pathname + '" />'));
-    </script>
---> <script src="scripts/scripts.86d65955.js"></script> </div></body> </html> 
+    <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+  <![endif]--> <!-- Add your site or application content here --> <div class="container-fluid" ng-controller="MainCtrl as main"> <nav class="navbar navbar-expand-md navbar-light fixed-top bg-light"> <a class="navbar-brand" href="/"> <img src="https://www.uts-canada.com/images/ulogo80.png" width="40" height="40" alt="Home"> </a> <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-controls="bs-example-navbar-collapse-1" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button> <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1"> <ul class="navbar-nav navbar-right"> <li class="nav-item" ng-class="{ active: isActive('/')}"> <a class="nav-link" ng-href="#!">Home<span class="sr-only">(current)</span></a> </li> <li class="nav-item" ng-class="{ active: isActive('/products')}"> <a class="nav-link" ng-href="#!products">Products</a> </li> <li class="nav-item" ng-class="{ active: isActive('/hse')}"> <a class="nav-link" ng-href="#!hse">HSE</a> </li> <li class="nav-item" ng-show="useServices" ng-class="{ active: isActive('/services')}"> <a class="nav-link" ng-href="#!services">Services</a> </li> <li class="nav-item" ng-show="useContact" ng-class="{ active: isActive('/contact')}"> <a class="nav-link" ng-href="#!contact">Contact</a> </li> <li class="nav-item" ng-show="useSupport" ng-class="{ active: isActive('/support')}"> <a class="nav-link" ng-href="#!support">Support</a> </li> <li class="nav-item" ng-show="useLogin" ng-class="{ active: isActive('/login')}"> <a class="nav-link" ng-href="#!login">Login</a> </li> </ul> </div> </nav> </div> <div ng-view=""> <div class="header" ng-controller="MainCtrl as main"> <div class="footer"> <div class="container diag" ng-controller="MainCtrl as main"> <pre>$location.path() = {{main.$location.path()}}</pre> <pre>$route.current.templateUrl = {{main.$route.current.templateUrl}}</pre> <pre>$route.current.params = {{main.$route.current.params}}</pre> <pre>$routeParams = {{main.$routeParams}}</pre> </div> <div class="container"> <p><span class="glyphicon glyphicon-heart"></span> from the Yeoman team</p> </div> </div> </div> <script src="scripts/vendor.41543689.js"></script> <!--
+      <script type="text/javascript">
+          angular.element(document.getElementsByTagName('head')).append(angular.element('<base href="' + window.location.pathname + '" />'));
+      </script>
+  --> <script src="scripts/scripts.5957fa3c.js"></script> </body> </html> 
